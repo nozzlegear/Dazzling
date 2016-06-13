@@ -214,6 +214,23 @@ function dazzling_call_for_action() {
 }
 endif;
 
+if ( ! function_exists( 'dazzling_call_for_action_home' ) ) :
+/**
+ * Call for action button & text area
+ */
+function dazzling_call_for_action_home() {
+  if ( is_front_page() && of_get_option('w2f_cfa_text')!=''){
+    echo '<h1>';
+      echo '<span class="cfa-text">'. of_get_option('w2f_cfa_text').'</span>';
+      echo `<br />`;
+      echo '<a class="btn btn-lg btn-primary" href="'. of_get_option('w2f_cfa_link'). '">'. of_get_option('w2f_cfa_button'). '</a>';
+    echo '</dh1>';
+  } else; {
+  //Do nothing
+  }
+}
+endif;
+
 
 if ( ! function_exists( 'dazzling_featured_slider' ) ) :
 /**

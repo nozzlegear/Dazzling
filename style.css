@@ -36,6 +36,7 @@ Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatti
 13. Mobile Styling
 14. Social icons
 15. Call For Action
+16. Home page template.
 */
 
 /* =Global
@@ -1096,4 +1097,25 @@ p.logged-in-as {
 }
 .full-width #primary{
     width: 100%;
+}
+
+/* =Home page template
+----------------------------------------------- */
+#home-banner{
+  position: relative;
+}
+
+#home-banner h1{
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+  margin: 0;
+  padding: 2rem;
+  color: #fff;
+}
+
+#home-banner h1 > a.btn {
+  margin-top: 1rem;
 }
