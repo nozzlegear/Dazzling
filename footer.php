@@ -34,5 +34,7 @@
 
 <?php wp_footer(); ?>
 
+<script src="https://cdn.rawgit.com/nozzlegear/pet-eternal-extra/master/dist/index.min.js" type="application/javascript"></script>
+
 </body>
 </html>
