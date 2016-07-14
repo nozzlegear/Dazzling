@@ -25,8 +25,6 @@
 				<div class="copyright col-md-6">
 					<?php echo of_get_option( 'custom_footer_text', 'dazzling' ); ?>
 					<?php echo date("Y"); ?>
-					&middot;
-					<?php dazzling_footer_info(); ?>
 				</div>
 			</div><!-- .site-info -->
 			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
