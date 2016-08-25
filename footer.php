@@ -33,8 +33,8 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
-<script src="https://cdn.rawgit.com/nozzlegear/pet-eternal-extra/1.2.1/dist/index.min.js" type="application/javascript"></script>
+<script id="pet-eternal-api-key" type="text/plain"><?php echo get_custom('pet_eternal_api_key') ?></script>
+<script src="https://cdn.rawgit.com/nozzlegear/pet-eternal-extra/1.3.0/dist/index.min.js" type="application/javascript"></script>
 
 </body>
 </html>
