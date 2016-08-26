@@ -1154,3 +1154,6 @@ p{
 h4.page-title{
   font-size: 2.5rem;
 }
+p.custom_full_image_link, p.custom_thumb_image_link {
+  display:none;
+}

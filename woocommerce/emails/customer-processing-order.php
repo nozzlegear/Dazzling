@@ -41,7 +41,7 @@ do_action( 'woocommerce_email_order_details', $order, $sent_to_admin, $plain_tex
  */
 do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email );
 
-echo("<h2 style='color: #557da1; display:block; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:130%;margin:16px 0 8px;text-align:left;'>Notice:</h2><p>To complete your order, we must receive your image or images. The easiest way to do that is to reply to this email and attach them. They'll get sent straight to our art team.</p>");
+// echo("<h2 style='color: #557da1; display:block; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:130%;margin:16px 0 8px;text-align:left;'>Notice:</h2><p>To complete your order, we must receive your image or images. The easiest way to do that is to reply to this email and attach them. They'll get sent straight to our art team.</p>");
 
 /**
  * @hooked WC_Emails::customer_details() Shows customer details
